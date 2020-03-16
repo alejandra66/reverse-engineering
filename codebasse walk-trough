@@ -1,0 +1,7 @@
+Config folder - They are used for user applications, server processes and operating system settings.
+Middleware folder - To serve static files such as images, CSS files, and JavaScript files, use the express.static built-in middleware function in Express.
+config.json - The top-level of config. json is a function that loads configuration file with the given filepath
+Models folder - Module.export all of the things, separate your configs, your routes, and your database models from the server.js file, and continue that trend as your project grows
+Public folder - holds the image, JS amd html file 
+routes - various requests to route handler files in the main folder
+Package.json - this file holds various metadata relevant to the project. This file is used to give information to npm that allows it to identify the project as well as handle the project's dependencies.
